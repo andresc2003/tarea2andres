@@ -1,0 +1,127 @@
+
+/* 
+    Created on : Jan 23, 2023, 7:04:43 PM
+    Author     : andrescedeno
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    padding: 80px 20px 0;
+    font-family: san-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #2A313B;
+    color: black;
+}
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    line-height: 80px;
+    list-style: none;
+}
+
+.nav-menu item {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+    
+}
+
+.nav-menu-link:hover {
+    font-size: 22px;
+    background-color: #53BACE;
+    transition: 0.5s
+}
+.logo {
+    font-size: 30px;
+    font-width: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+#aside {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 20%;
+    bottom: 20px;
+    background-color: #53BACE;
+    float: center;
+    color: black;
+}
+
+#contenido {
+    position: fixed;
+    top: 80px;
+    left: 20%;
+    width: 80%;
+    bottom: 20px;
+    background-color: white;
+    color: black;
+    overflow: scroll;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    bottom: 0;
+    background-color: #282f39;
+    color: #53BACE;
+    text-align: center;
+}
+
+#footer2 {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    bottom: 0;
+    background-color: #282f39;
+    color: #53BACE;
+    text-align: center;
+}
+
+.centrado {
+    text-align: center
+}
+
+
+.derecha {
+    text-align: right
+}
+/* odd es impar, even es par*/
+tbody tr:nth-child(odd){
+    background-color: red;
+    color: yellow;
+}
+
+tr:nth-child(even){
+    background-color: yellow;
+    color: rede;
+}
